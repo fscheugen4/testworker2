@@ -1,4 +1,4 @@
-name = "testworker"
+name = "testworker2"
 main = "index.ts"
 compatibility_date = "2025-02-28"
 
