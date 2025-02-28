@@ -10,9 +10,14 @@ export default {
       "https://einsundnull.de/assets/Uploads/E+N-Referenzen/Joules_thumb_up_circle.png"
     );
 
+    const exampleMask = await fetch(
+      "/assets/PngItem_2257855.png"
+    );
+
     const inputs = {
-      prompt: "add mustach and sombrero to robot",
+      prompt: "change to mexican robot",
       image: [...new Uint8Array(await exampleInputImage.arrayBuffer())],
+      mask: [...new Uint8Array(await exampleMask.arrayBuffer())],
     };
 
     const response = await env.AI.run(
