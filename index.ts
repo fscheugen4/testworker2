@@ -11,7 +11,7 @@ export default {
     );
 
     const exampleMask = await fetch(
-      "/assets/PngItem_2257855.png"
+      "https://github.com/fscheugen4/testworker2/blob/main/assets/PngItem_2257855.png"
     );
 
     const inputs = {
