@@ -1,0 +1,7 @@
+name = "testworker"
+main = "index.ts"
+compatibility_date = "2025-02-28"
+
+[ai]
+binding = "AI"     
+type = "ai"

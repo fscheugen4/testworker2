@@ -1,0 +1,22 @@
+{
+  "name": "worker-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo 'Running build script...'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fscheugen4/testworker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fscheugen4/testworker/issues"
+  },
+  "homepage": "https://github.com/fscheugen4/testworker#readme"
+}
